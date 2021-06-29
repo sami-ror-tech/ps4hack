@@ -28,7 +28,7 @@ function isInArray(value, array) {
 }
 
 function updatePage(title, header, buttons) {
-  document.title = "sami-ror-tech | PS4xploit";
+  document.title = "sami-ror-tech";
   document.getElementById("title").innerHTML = title;
   document.getElementById("header").innerHTML = header;
   document.getElementById("buttons").innerHTML = buttons;
@@ -36,7 +36,7 @@ function updatePage(title, header, buttons) {
 
 function resetPage() {
   history.pushState("", document.title, window.location.pathname + window.location.search);
-  updatePage("sami-ror-tech | PS4xploit", "Choose Firmware", firmwares);
+  updatePage("sami-ror-tech", "Choose Firmware", firmwares);
 }
 
 function getFirmwares() {
