@@ -1,4 +1,4 @@
 @echo off
-title Hakkuraifu - Host PS4 Jailbreak
+title sami-ror-tech - Host PS4 Jailbreak
 cls
 python host.py
